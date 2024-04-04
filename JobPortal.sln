@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPortal", "JobPortal\JobPortal.csproj", "{FCC785F8-3637-428C-AAD7-047382F02A98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseLayer", "DatabaseLayer\DatabaseLayer.csproj", "{F8C3F0F0-A267-4966-8757-F6713C8B833B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC785F8-3637-428C-AAD7-047382F02A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC785F8-3637-428C-AAD7-047382F02A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC785F8-3637-428C-AAD7-047382F02A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC785F8-3637-428C-AAD7-047382F02A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C3F0F0-A267-4966-8757-F6713C8B833B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C3F0F0-A267-4966-8757-F6713C8B833B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C3F0F0-A267-4966-8757-F6713C8B833B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C3F0F0-A267-4966-8757-F6713C8B833B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EADF55BD-CA1C-4346-B4FC-E17FF623D099}
+	EndGlobalSection
+EndGlobal

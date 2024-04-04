@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c7dfe7e28bad4b92a95c1b1a757f1ed8" Name="Diagram1" ZoomLevel="45">
+        <EntityTypeShape EntityType="JobhuntDbModel.CompanyTable" Width="1.5" PointX="3" PointY="7.25" />
+        <EntityTypeShape EntityType="JobhuntDbModel.JobCategoryTable" Width="1.5" PointX="3" PointY="13" />
+        <EntityTypeShape EntityType="JobhuntDbModel.JobNatureTable" Width="1.5" PointX="3" PointY="10.75" />
+        <EntityTypeShape EntityType="JobhuntDbModel.JobRequirementDetailTable" Width="1.5" PointX="7.5" PointY="2.625" />
+        <EntityTypeShape EntityType="JobhuntDbModel.JobRequirementsTable" Width="1.5" PointX="5.25" PointY="7.875" />
+        <EntityTypeShape EntityType="JobhuntDbModel.JobStatusTable" Width="1.5" PointX="3" PointY="15.625" />
+        <EntityTypeShape EntityType="JobhuntDbModel.PostJobTable" Width="1.5" PointX="5.25" PointY="1.125" />
+        <EntityTypeShape EntityType="JobhuntDbModel.UserTable" Width="1.5" PointX="3" PointY="2.375" />
+        <EntityTypeShape EntityType="JobhuntDbModel.UserTypeTable" Width="1.5" PointX="0.75" PointY="2.875" />
+        <AssociationConnector Association="JobhuntDbModel.FK_PostJobTable_CompanyTable" />
+        <AssociationConnector Association="JobhuntDbModel.FK_PostJobTable_JobCategoryTable" />
+        <AssociationConnector Association="JobhuntDbModel.FK_PostJobTable_JobNatureTable" />
+        <AssociationConnector Association="JobhuntDbModel.FK_JobRequirementDetailTable_JobRequirementsTable" />
+        <AssociationConnector Association="JobhuntDbModel.FK_JobRequirementDetailTable_PostJobTable" />
+        <AssociationConnector Association="JobhuntDbModel.FK_PostJobTable_JobStatusTable" />
+        <AssociationConnector Association="JobhuntDbModel.FK_PostJobTable_UserTable" />
+        <AssociationConnector Association="JobhuntDbModel.FK_UserTypeTable_UserTable" />
+        <AssociationConnector Association="JobhuntDbModel.FK_CompanyTable_UserTable" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

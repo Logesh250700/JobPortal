@@ -1,0 +1,100 @@
+﻿@model JobPortal.Models.UserLoginMV
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="job-category-listing mb-50">
+                <div class="col-md-12">
+                    <h2 class="contact-title" align="center">Login</h2>
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                </div>
+
+                @using (Html.BeginForm("Login", "User", FormMethod.Post,
+                new
+                {
+                    @class = "form-contact",
+
+                    @novalidate = "novalidate"
+                }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                            <div class="form-group">
+                                @Html.EditorFor(model => model.UserName, new
+                           {
+                               htmlAttributes = new
+                               {
+                                   @class = "form-control valid",
+                                   @type = "text",
+                                   @name = "name",
+                                   @id = "name",
+                                   @placeholder = "Enter User Name",
+                                   @onfocus = "this.placeholder = ''",
+                                   @onblur = "this.placeholder = 'Enter User Name'",
+                                   @required = "true"
+
+                               }
+                           })
+                                @Html.ValidationMessageFor(model => model.UserName,
+                                "",
+                                new { @class = "text-danger" })
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                            </div>
+                            @Html.EditorFor(model => model.Password, new
+                                {
+                                   htmlAttributes = new
+                                   {
+                                        @class = "form-control valid",
+                                        @type = "password",
+                                        @name = "password",
+                                        @id = "password",
+                                        @placeholder = "Enter Password",
+                                        @onfocus = "this.placeholder = ''",
+                                        @onblur = "this.placeholder = 'Enter Password'",
+                                        @required = "true"
+
+                                }
+                                })
+                            @Html.ValidationMessageFor(model => model.Password,
+                            "",
+                            new { @class = "text-danger" })
+
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="submit" value="Login" class="button boxed-btn" />
+                        @*<a href="#" style="float:right; padding:15px 0px 0px 0px;" class="btn-link">Forgot Password?</a>*@
+                    </div>
+
+                
+
+                @*<div class="row">
+
+        <div class="col-sm-12">
+
+            <div class="form-group">
+
+                @Html.EditorFor(model => model.UserName, new*@
+                }
+            </div>
+            </div>
+
+                    @*<div class="col-md-6">
+
+                    </div>*@
+    </div>
+            
+</section>
+

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<DatabaseLayer.UserTable>
+
+@{
+    ViewBag.Title = "All Users";
+}
+<div class="job-listing-area pt-100 pb-120">
+
+    <h2>All Users</h2>
+
+
+    <table class="table table-responsive table-hover">
+        <tr>
+            <th>
+                User Name
+            </th>
+            <th>
+                Password
+            </th>
+            <th>
+                Email Address
+            </th>
+            <th>
+                Contact No
+            </th>
+            <th>
+                User Type
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserTypeTable.UserType)
+                </td>
+
+            </tr>
+        }
+        
+
+    </table>
+    </div>

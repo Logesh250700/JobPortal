@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JobPortal.Models.CompanyTable">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQQAAAAIgAAAAAAAAAAgEAAEQAAAAAAAAggAAAAA=</HashCode>
+      <FileName>Models\CompanyTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortal.Models.CurrentJobStatusTable">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACABAAA=</HashCode>
+      <FileName>Models\CurrentJobStatusTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortal.Models.EmployeeTable">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="System.Object" FixedFromPoint="true">
+      <Path>
+        <Point X="11.5" Y="3.773" />
+        <Point X="11.481" Y="3.773" Type="JumpStart" />
+        <Point X="11.314" Y="3.773" Type="JumpEnd" />
+        <Point X="7.832" Y="3.773" />
+        <Point X="7.832" Y="4.096" />
+        <Point X="6.082" Y="4.096" />
+        <Point X="6.082" Y="4.262" />
+        <Point X="4.332" Y="4.262" />
+        <Point X="4.332" Y="4.168" />
+        <Point X="2.623" Y="4.168" />
+        <Point X="2.623" Y="3.585" />
+        <Point X="2.5" Y="3.585" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>QAJIAAiACAQgQCCBCAAACAgCAJARAIQAAAAAAiEAAAA=</HashCode>
+      <FileName>Models\EmployeeTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortal.Models.JobApplyStatusTable">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAEAAAA=</HashCode>
+      <FileName>Models\JobApplyStatusTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortal.Models.JobApplyTable">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABIABAAAQAAAAACEABAAIAQA=</HashCode>
+      <FileName>Models\JobApplyTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortal.Models.JobCategoryTable">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgABABAAAAABAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\JobCategoryTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortal.Models.JobStatusTable">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="System.Object" FixedFromPoint="true">
+      <Path>
+        <Point X="11.5" Y="4.045" />
+        <Point X="11.481" Y="4.045" Type="JumpStart" />
+        <Point X="11.314" Y="4.045" Type="JumpEnd" />
+        <Point X="7.832" Y="4.045" />
+        <Point X="7.832" Y="4.096" />
+        <Point X="6.082" Y="4.096" />
+        <Point X="6.082" Y="4.262" />
+        <Point X="5.25" Y="4.262" />
+        <Point X="5.25" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Models\JobStatusTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortal.Models.JobTable">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAABAAAAAAAAAAABAIQAAAAAAAAIAAA=</HashCode>
+      <FileName>Models\JobTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortal.Models.SkillTable">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="System.Object" FixedFromPoint="true">
+      <Path>
+        <Point X="13" Y="3.5" />
+        <Point X="13" Y="3.267" />
+        <Point X="12.458" Y="3.267" Type="JumpStart" />
+        <Point X="12.292" Y="3.267" Type="JumpEnd" />
+        <Point X="7.832" Y="3.267" />
+        <Point X="7.832" Y="4.096" />
+        <Point X="6.082" Y="4.096" />
+        <Point X="6.082" Y="4.262" />
+        <Point X="5.25" Y="4.262" />
+        <Point X="5.25" Y="4.18" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAABAABAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Models\SkillTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortal.Models.UserTable">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="System.Object" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.375" Y="3.5" />
+        <Point X="12.375" Y="0.26" />
+        <Point X="3" Y="0.26" />
+        <Point X="3" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAMABACAAAAAAgEAAAAAAACAQAiggAAAAA=</HashCode>
+      <FileName>Models\UserTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortal.Models.WorkExperienceTable">
+    <Position X="6.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAICAAAAgAGAIAAAAAAAAAAAQAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Models\WorkExperienceTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
